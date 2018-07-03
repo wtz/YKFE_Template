@@ -1,0 +1,5 @@
+@import '../_var.css';
+
+.header {
+  background-color: $hdBg;
+}

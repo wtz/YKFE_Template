@@ -1,0 +1,41 @@
+/*原生支持*/
+
+@import '../_var.css';
+@import '../reset.css';
+@import '../common/header.css';
+@import '../common/footer.css';
+
+/*css sprites*/
+@lazysprite "socal";
+
+body{
+	background-color:$bodyBg;
+	background: resolve('logo.png') no-repeat;
+	background-size:10px 10px;
+}
+
+h1 {
+  font-size: 20px;
+  background: inline('close.png') no-repeat;
+  background-size:20px 20px;
+  border:1px solid blue;
+}
+
+
+.test {
+	width:200px;
+	height: 200px;
+	background: red;
+	color:white;
+	border:1px solid white;
+	p{
+		color: white;
+		font-size:30px;
+	}
+}
+
+.wrap{
+	width:100px;
+	margin:0 auto;
+}
+
