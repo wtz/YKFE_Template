@@ -35,7 +35,9 @@ h1 {
 }
 
 .wrap{
-	width:100px;
+	width:200px;
 	margin:0 auto;
+	background-color: blue;
+	border:115px solid red;
 }
 

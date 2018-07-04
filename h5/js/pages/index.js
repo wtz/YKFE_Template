@@ -4,8 +4,7 @@
 
 (function(){
 	
-	console.log('$YK', 'h5',$YK)
-
+	
 	// $YK.utils.request('/front/wish/index', {}, function(res) {
 	//   console.log('res', res)
 	// }, function(res) {
@@ -16,12 +15,21 @@
 
 	
 	// $('#tabView .ui-tab-tabs > a').tab({
-	// 	// eventType:'mouseover'
+	// 	eventType:'mouseover',
 	// 	index:0,
 	// 	callback:function(){
 	// 		console.log('callback')
 	// 	}
 	// });		
+
+	
+	window.onload = function(){
+		console.log('1232aaas2')
+		console.log('1232aaas2')
+	}
+
+
+
 
 
 })()

@@ -71,25 +71,25 @@ body {
 
 /*css sprites*/
 .icon-socal__qq{
-  background-image: url(../../../h5/img/socal.5f38477bfe.png);
+  background-image: url(../../../pc/img/socal.5f38477bfe.png);
   background-position: 0 0;
   width: 30px;
   height: 25px;
 }
 .icon-socal__renren{
-  background-image: url(../../../h5/img/socal.5f38477bfe.png);
+  background-image: url(../../../pc/img/socal.5f38477bfe.png);
   background-position: -40px 0;
   width: 30px;
   height: 25px;
 }
 .icon-socal__sina{
-  background-image: url(../../../h5/img/socal.5f38477bfe.png);
+  background-image: url(../../../pc/img/socal.5f38477bfe.png);
   background-position: 0 -35px;
   width: 30px;
   height: 25px;
 }
 .icon-socal__wechat{
-  background-image: url(../../../h5/img/socal.5f38477bfe.png);
+  background-image: url(../../../pc/img/socal.5f38477bfe.png);
   background-position: -40px -35px;
   width: 30px;
   height: 25px;
@@ -97,7 +97,7 @@ body {
 
 body{
 	background-color:orange;
-	background: url('/h5/img/logo.png?162a2f19ed2') no-repeat;
+	background: url('/pc/img/logo.png?162a2f19ed2') no-repeat;
 	background-size:10px 10px;
 }
 
@@ -124,7 +124,9 @@ h1 {
 	}
 
 .wrap{
-	width:100px;
+	width:200px;
 	margin:0 auto;
+	background-color: blue;
+	border:115px solid red;
 }
 
