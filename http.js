@@ -4,7 +4,7 @@ var proxy = require('http-proxy-middleware');
 
 // proxy middleware options
 var options = {
-  target: 'http://nu2018dzb.sanguosha.com', // target host
+  target: 'http://xxx.com', // target host
   changeOrigin: true, // needed for virtual hosted sites
   ws: true, // proxy websockets
   // pathRewrite: {
