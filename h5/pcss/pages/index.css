@@ -10,7 +10,7 @@
 
 body{
 	background-color:$bodyBg;
-	background: resolve('logo.png') no-repeat;
+	/*background: resolve('logo.png') no-repeat;*/
 	background-size:10px 10px;
 }
 
