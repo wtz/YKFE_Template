@@ -6,11 +6,11 @@ var fs = require("fs")
 var gulp = require('gulp');
 var postcss = require('gulp-postcss');
 var lazysprite = require('postcss-lazysprite'); //css sprites 
-var sourcemaps = require('gulp-sourcemaps');
+// var sourcemaps = require('gulp-sourcemaps');
 var precss = require('precss'); //PreCSS预处理器
 var assets = require('postcss-assets'); // 处理图片和css
-var autoprefixer = require('autoprefixer');
-var cssImport = require("postcss-import")
+// var autoprefixer = require('autoprefixer');
+// var cssImport = require("postcss-import")
 var rev = require('gulp-rev');
 var revCollector = require('gulp-rev-collector');
 // var handlebars = require('gulp-compile-handlebars');
@@ -24,8 +24,8 @@ var gulpif = require('gulp-if');
 var useref = require('gulp-useref');
 var htmlmin = require('gulp-htmlmin');
 
-var replace = require('gulp-replace');
-var fileinclude = require('gulp-file-include');
+// var replace = require('gulp-replace');
+// var fileinclude = require('gulp-file-include');
 
 var minimist = require('minimist'); //命令行解析
 var rename = require('gulp-rename');
