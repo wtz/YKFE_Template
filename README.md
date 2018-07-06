@@ -31,4 +31,4 @@
   * commander
   
   
-  目前就windows端测试OK,MAC os 未测试。
+  
